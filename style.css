@@ -1,0 +1,223 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+.icon-style:hover{
+    background-color: #f3b48a;
+    
+}
+
+.icon-style {
+    color: black;
+    border-style: solid;
+    border-color: gray;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 22px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.link::before{
+        content: "";
+        width: 0;
+        height: 0.2 rem;
+        position: absolute;
+}
+.link:hover::before{
+    width: 130%;
+}
+.navback {
+    background-color:#ffd1b3;
+}
+
+.numbers{
+    font-size: 22px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-weight: 400;
+    color: black;
+}
+
+.bg-container {
+    background-color: white;
+    margin-top: 15px;
+   
+}
+
+.image {
+    width: 100%;
+}
+
+.image1{
+    width: 20%;
+    height:200px ;
+}
+
+.skills-card-image{
+    width: 180px;
+    height: 180px;
+}
+
+.head {
+    color: rgb(64, 89, 89);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 28px;
+    font-weight: 300;
+   
+}
+
+.name {
+    color: #f76b0d	;
+    font-size: 52px;
+    margin: 0px;   
+}
+.name1{
+    font-size: 78px;
+    color: rgb(57, 54, 54);
+    text-align: center;
+}
+
+.contact{
+    font-size: 78px;
+    color: rgb(57, 54, 54);
+}
+
+.para {
+    color: rgb(64, 89, 89);
+    font-size: 22px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serifss;
+
+    
+}
+.para1{
+    color: rgb(35, 39, 39);
+    font-size: 34px;
+}
+
+.para3{
+    color: black;
+    font-size: 20px;
+    padding-top: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 300;
+
+}
+
+.button {
+    border-width: 2px;
+    border-radius: 3pxpx;
+    border-style: solid;
+    border-color: gray;
+    width: 150px;
+    height: 50px;
+    color: black;
+    font-size: 18px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.button:hover{
+    background-color: #f3b48a;
+}
+
+.btn-light{
+    background-color: #fbad79;
+}
+.head1 {
+    color: black;
+    font-family: "Monospace";
+    font-size: 36px;
+    padding-top: 10px;
+    text-align: center;    
+}
+.center{
+    text-align: center; 
+}
+
+.head1:hover{
+    color: grey;
+}
+
+.project-card{
+    border-radius: 8px;
+    background-color: #faf4ec;
+}
+
+.project-card-image{
+    width: 100%;
+}
+
+.project-title{
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.project-card-title{
+    color: gray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+.project-description{
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+
+}
+
+.project-card-link{
+    color: #f3b48a;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.icon-project{
+    width: 20px;
+    height: 20px;
+}
+
+.line-1{
+    height: 1.5px;
+    background: black;
+}
+
+.footer-section{
+    color: gray;
+    padding: 25px;
+    margin-top: 20px;
+
+}
+
+.footer-section-text{
+    color: gray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+    
+}
+
+.follow-us-icon-container {
+    background-color: #faf7e8;
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    margin: 15px;
+    padding-top: 22px;
+    padding-bottom: 14px;
+    padding-right: 16px;
+    padding-left: 22px;
+  }
+  .icon-followme {
+    color: #d0b200;
+    font-size: 35px;
+  }
+
+  .blog{
+   color: black;
+  }
